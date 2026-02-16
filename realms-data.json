@@ -1,0 +1,3329 @@
+[
+  {
+    "id": 0,
+    "name": "Phàm Nhân",
+    "emoji": "👤",
+    "stage": "Phàm Nhân",
+    "tier": "",
+    "description": "Phàm nhân tu vi, chưa bước vào tu tiên chi đạo. Thân phàm ăn ngũ cốc, trăm năm thoáng qua như khói mây.",
+    "requirements": {
+      "tuVi": 0,
+      "linhThach": 0
+    },
+    "breakthrough": {
+      "baseSuccessRate": 100,
+      "tamMaChance": 0,
+      "failureRisks": [],
+      "rewardOnSuccess": {
+        "tuVi": 10,
+        "linhThach": 100,
+        "danhVong": 10
+      }
+    },
+    "possibleEvents": [
+      "pham_nhan_co_duyen",
+      "gap_lao_gia"
+    ],
+    "successText": "Ngươi cảm nhận được khí linh trong thiên địa, linh căn bừng tỉnh. Con đường tu tiên từ đây mở ra."
+  },
+  {
+    "id": 1,
+    "name": "Luyện Khí Sơ Kỳ",
+    "emoji": "🔥",
+    "stage": "Luyện Khí",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Luyện Khí, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 100,
+      "linhThach": 120,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 90,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 10,
+        "linhThach": 240,
+        "danhVong": 104
+      }
+    },
+    "possibleEvents": [
+      "tu_luyen_co_ban",
+      "gap_sư_đệ",
+      "chien_dau"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Khí Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 2,
+    "name": "Luyện Khí Trung Kỳ",
+    "emoji": "🔥",
+    "stage": "Luyện Khí",
+    "tier": "Trung Kỳ",
+    "description": "Luyện Khí trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 150,
+      "linhThach": 144,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 90,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 15,
+        "linhThach": 288,
+        "danhVong": 108
+      }
+    },
+    "possibleEvents": [
+      "tu_luyen_co_ban",
+      "gap_sư_đệ",
+      "chien_dau"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Khí Trung Kỳ đã thành!"
+  },
+  {
+    "id": 3,
+    "name": "Luyện Khí Hậu Kỳ",
+    "emoji": "🔥",
+    "stage": "Luyện Khí",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Luyện Khí, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 225,
+      "linhThach": 173,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 90,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 22,
+        "linhThach": 346,
+        "danhVong": 112
+      }
+    },
+    "possibleEvents": [
+      "tu_luyen_co_ban",
+      "gap_sư_đệ",
+      "chien_dau"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Khí Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 4,
+    "name": "Luyện Khí Đỉnh Phong",
+    "emoji": "🔥",
+    "stage": "Luyện Khí",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Luyện Khí, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 337,
+      "linhThach": 208,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 90,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 33,
+        "linhThach": 416,
+        "danhVong": 117
+      }
+    },
+    "possibleEvents": [
+      "tu_luyen_co_ban",
+      "gap_sư_đệ",
+      "chien_dau"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Khí Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 5,
+    "name": "Luyện Khí Đại Viên Mãn",
+    "emoji": "🔥",
+    "stage": "Luyện Khí",
+    "tier": "Đại Viên Mãn",
+    "description": "Luyện Khí đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 506,
+      "linhThach": 250,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 90,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 50,
+        "linhThach": 500,
+        "danhVong": 122
+      }
+    },
+    "possibleEvents": [
+      "tu_luyen_co_ban",
+      "gap_sư_đệ",
+      "chien_dau"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Khí Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 6,
+    "name": "Luyện Khí Sơ Kỳ",
+    "emoji": "🔥",
+    "stage": "Luyện Khí",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Luyện Khí, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 759,
+      "linhThach": 300,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 90,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 75,
+        "linhThach": 600,
+        "danhVong": 127
+      }
+    },
+    "possibleEvents": [
+      "tu_luyen_co_ban",
+      "gap_sư_đệ",
+      "chien_dau"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Khí Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 7,
+    "name": "Trúc Cơ Sơ Kỳ",
+    "emoji": "🪨",
+    "stage": "Trúc Cơ",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Trúc Cơ, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 1000,
+      "linhThach": 360,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 85,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 100,
+        "linhThach": 720,
+        "danhVong": 132
+      }
+    },
+    "possibleEvents": [
+      "truc_co_event",
+      "gia_nhap_tong_mon",
+      "cuop_tai_nguyen"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Trúc Cơ Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 8,
+    "name": "Trúc Cơ Trung Kỳ",
+    "emoji": "🪨",
+    "stage": "Trúc Cơ",
+    "tier": "Trung Kỳ",
+    "description": "Trúc Cơ trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 1800,
+      "linhThach": 433,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 85,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 180,
+        "linhThach": 866,
+        "danhVong": 138
+      }
+    },
+    "possibleEvents": [
+      "truc_co_event",
+      "gia_nhap_tong_mon",
+      "cuop_tai_nguyen"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Trúc Cơ Trung Kỳ đã thành!"
+  },
+  {
+    "id": 9,
+    "name": "Trúc Cơ Hậu Kỳ",
+    "emoji": "🪨",
+    "stage": "Trúc Cơ",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Trúc Cơ, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 3240,
+      "linhThach": 520,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 85,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 324,
+        "linhThach": 1040,
+        "danhVong": 144
+      }
+    },
+    "possibleEvents": [
+      "truc_co_event",
+      "gia_nhap_tong_mon",
+      "cuop_tai_nguyen"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Trúc Cơ Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 10,
+    "name": "Trúc Cơ Đỉnh Phong",
+    "emoji": "🪨",
+    "stage": "Trúc Cơ",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Trúc Cơ, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 5832,
+      "linhThach": 625,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 85,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 583,
+        "linhThach": 1250,
+        "danhVong": 150
+      }
+    },
+    "possibleEvents": [
+      "truc_co_event",
+      "gia_nhap_tong_mon",
+      "cuop_tai_nguyen"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Trúc Cơ Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 11,
+    "name": "Trúc Cơ Đại Viên Mãn",
+    "emoji": "🪨",
+    "stage": "Trúc Cơ",
+    "tier": "Đại Viên Mãn",
+    "description": "Trúc Cơ đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 10497,
+      "linhThach": 750,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 85,
+      "tamMaChance": 0,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1049,
+        "linhThach": 1500,
+        "danhVong": 156
+      }
+    },
+    "possibleEvents": [
+      "truc_co_event",
+      "gia_nhap_tong_mon",
+      "cuop_tai_nguyen"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Trúc Cơ Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 12,
+    "name": "Kim Đan Sơ Kỳ",
+    "emoji": "💎",
+    "stage": "Kim Đan",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Kim Đan, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 10000,
+      "linhThach": 901,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 80,
+      "tamMaChance": 1.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1000,
+        "linhThach": 1802,
+        "danhVong": 162
+      }
+    },
+    "possibleEvents": [
+      "ket_dan_event",
+      "tam_ma_nhe",
+      "co_duyen_dan_duoc"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Đan Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 13,
+    "name": "Kim Đan Trung Kỳ",
+    "emoji": "💎",
+    "stage": "Kim Đan",
+    "tier": "Trung Kỳ",
+    "description": "Kim Đan trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 20000,
+      "linhThach": 1083,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 80,
+      "tamMaChance": 3,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2000,
+        "linhThach": 2166,
+        "danhVong": 169
+      }
+    },
+    "possibleEvents": [
+      "ket_dan_event",
+      "tam_ma_nhe",
+      "co_duyen_dan_duoc"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Đan Trung Kỳ đã thành!"
+  },
+  {
+    "id": 14,
+    "name": "Kim Đan Hậu Kỳ",
+    "emoji": "💎",
+    "stage": "Kim Đan",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Kim Đan, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 40000,
+      "linhThach": 1300,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 80,
+      "tamMaChance": 4.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 4000,
+        "linhThach": 2600,
+        "danhVong": 176
+      }
+    },
+    "possibleEvents": [
+      "ket_dan_event",
+      "tam_ma_nhe",
+      "co_duyen_dan_duoc"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Đan Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 15,
+    "name": "Kim Đan Đỉnh Phong",
+    "emoji": "💎",
+    "stage": "Kim Đan",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Kim Đan, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 80000,
+      "linhThach": 1562,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 80,
+      "tamMaChance": 6,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 8000,
+        "linhThach": 3124,
+        "danhVong": 183
+      }
+    },
+    "possibleEvents": [
+      "ket_dan_event",
+      "tam_ma_nhe",
+      "co_duyen_dan_duoc"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Đan Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 16,
+    "name": "Kim Đan Đại Viên Mãn",
+    "emoji": "💎",
+    "stage": "Kim Đan",
+    "tier": "Đại Viên Mãn",
+    "description": "Kim Đan đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 160000,
+      "linhThach": 1876,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 80,
+      "tamMaChance": 7.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 16000,
+        "linhThach": 3752,
+        "danhVong": 191
+      }
+    },
+    "possibleEvents": [
+      "ket_dan_event",
+      "tam_ma_nhe",
+      "co_duyen_dan_duoc"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Đan Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 17,
+    "name": "Nguyên Anh Sơ Kỳ",
+    "emoji": "🧘",
+    "stage": "Nguyên Anh",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Nguyên Anh, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 50000,
+      "linhThach": 2254,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 75,
+      "tamMaChance": 9,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 5000,
+        "linhThach": 4508,
+        "danhVong": 199
+      }
+    },
+    "possibleEvents": [
+      "tam_ma_trung_binh",
+      "duoc_co_duyen_nguyen_anh",
+      "chien_dau_kim_dan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Nguyên Anh Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 18,
+    "name": "Nguyên Anh Trung Kỳ",
+    "emoji": "🧘",
+    "stage": "Nguyên Anh",
+    "tier": "Trung Kỳ",
+    "description": "Nguyên Anh trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 110000,
+      "linhThach": 2707,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 75,
+      "tamMaChance": 10.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 11000,
+        "linhThach": 5414,
+        "danhVong": 207
+      }
+    },
+    "possibleEvents": [
+      "tam_ma_trung_binh",
+      "duoc_co_duyen_nguyen_anh",
+      "chien_dau_kim_dan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Nguyên Anh Trung Kỳ đã thành!"
+  },
+  {
+    "id": 19,
+    "name": "Nguyên Anh Hậu Kỳ",
+    "emoji": "🧘",
+    "stage": "Nguyên Anh",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Nguyên Anh, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 242000,
+      "linhThach": 3252,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 75,
+      "tamMaChance": 12,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 24200,
+        "linhThach": 6504,
+        "danhVong": 216
+      }
+    },
+    "possibleEvents": [
+      "tam_ma_trung_binh",
+      "duoc_co_duyen_nguyen_anh",
+      "chien_dau_kim_dan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Nguyên Anh Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 20,
+    "name": "Nguyên Anh Đỉnh Phong",
+    "emoji": "🧘",
+    "stage": "Nguyên Anh",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Nguyên Anh, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 532400,
+      "linhThach": 3906,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 75,
+      "tamMaChance": 13.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 53240,
+        "linhThach": 7812,
+        "danhVong": 225
+      }
+    },
+    "possibleEvents": [
+      "tam_ma_trung_binh",
+      "duoc_co_duyen_nguyen_anh",
+      "chien_dau_kim_dan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Nguyên Anh Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 21,
+    "name": "Nguyên Anh Đại Viên Mãn",
+    "emoji": "🧘",
+    "stage": "Nguyên Anh",
+    "tier": "Đại Viên Mãn",
+    "description": "Nguyên Anh đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 1171280,
+      "linhThach": 4691,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 75,
+      "tamMaChance": 15,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 117128,
+        "linhThach": 9382,
+        "danhVong": 234
+      }
+    },
+    "possibleEvents": [
+      "tam_ma_trung_binh",
+      "duoc_co_duyen_nguyen_anh",
+      "chien_dau_kim_dan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Nguyên Anh Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 22,
+    "name": "Hóa Thần Sơ Kỳ",
+    "emoji": "⚡",
+    "stage": "Hóa Thần",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Hóa Thần, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 200000,
+      "linhThach": 5635,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 70,
+      "tamMaChance": 16.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 20000,
+        "linhThach": 11270,
+        "danhVong": 244
+      }
+    },
+    "possibleEvents": [
+      "hoa_than_event",
+      "tam_ma_manh",
+      "bi_truy_sat"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hóa Thần Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 23,
+    "name": "Hóa Thần Trung Kỳ",
+    "emoji": "⚡",
+    "stage": "Hóa Thần",
+    "tier": "Trung Kỳ",
+    "description": "Hóa Thần trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 459999,
+      "linhThach": 6768,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 70,
+      "tamMaChance": 18,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 45999,
+        "linhThach": 13536,
+        "danhVong": 254
+      }
+    },
+    "possibleEvents": [
+      "hoa_than_event",
+      "tam_ma_manh",
+      "bi_truy_sat"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hóa Thần Trung Kỳ đã thành!"
+  },
+  {
+    "id": 24,
+    "name": "Hóa Thần Hậu Kỳ",
+    "emoji": "⚡",
+    "stage": "Hóa Thần",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Hóa Thần, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 1057999,
+      "linhThach": 8130,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 70,
+      "tamMaChance": 19.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 105799,
+        "linhThach": 16260,
+        "danhVong": 264
+      }
+    },
+    "possibleEvents": [
+      "hoa_than_event",
+      "tam_ma_manh",
+      "bi_truy_sat"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hóa Thần Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 25,
+    "name": "Hóa Thần Đỉnh Phong",
+    "emoji": "⚡",
+    "stage": "Hóa Thần",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Hóa Thần, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 2433399,
+      "linhThach": 9765,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 70,
+      "tamMaChance": 21,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 243339,
+        "linhThach": 19530,
+        "danhVong": 275
+      }
+    },
+    "possibleEvents": [
+      "hoa_than_event",
+      "tam_ma_manh",
+      "bi_truy_sat"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hóa Thần Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 26,
+    "name": "Hóa Thần Đại Viên Mãn",
+    "emoji": "⚡",
+    "stage": "Hóa Thần",
+    "tier": "Đại Viên Mãn",
+    "description": "Hóa Thần đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 5596819,
+      "linhThach": 11729,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 70,
+      "tamMaChance": 22.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 559681,
+        "linhThach": 23458,
+        "danhVong": 286
+      }
+    },
+    "possibleEvents": [
+      "hoa_than_event",
+      "tam_ma_manh",
+      "bi_truy_sat"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hóa Thần Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 27,
+    "name": "Luyện Hư Sơ Kỳ",
+    "emoji": "🌫️",
+    "stage": "Luyện Hư",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Luyện Hư, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 800000,
+      "linhThach": 14088,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 65,
+      "tamMaChance": 24,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 80000,
+        "linhThach": 28176,
+        "danhVong": 298
+      }
+    },
+    "possibleEvents": [
+      "luyen_hu_event",
+      "bi_canh_event",
+      "co_duyen_boss"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Hư Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 28,
+    "name": "Luyện Hư Trung Kỳ",
+    "emoji": "🌫️",
+    "stage": "Luyện Hư",
+    "tier": "Trung Kỳ",
+    "description": "Luyện Hư trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 1920000,
+      "linhThach": 16922,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 65,
+      "tamMaChance": 25.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 192000,
+        "linhThach": 33844,
+        "danhVong": 311
+      }
+    },
+    "possibleEvents": [
+      "luyen_hu_event",
+      "bi_canh_event",
+      "co_duyen_boss"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Hư Trung Kỳ đã thành!"
+  },
+  {
+    "id": 29,
+    "name": "Luyện Hư Hậu Kỳ",
+    "emoji": "🌫️",
+    "stage": "Luyện Hư",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Luyện Hư, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 4608000,
+      "linhThach": 20326,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 65,
+      "tamMaChance": 27,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 460800,
+        "linhThach": 40652,
+        "danhVong": 324
+      }
+    },
+    "possibleEvents": [
+      "luyen_hu_event",
+      "bi_canh_event",
+      "co_duyen_boss"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Hư Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 30,
+    "name": "Luyện Hư Đỉnh Phong",
+    "emoji": "🌫️",
+    "stage": "Luyện Hư",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Luyện Hư, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 11059199,
+      "linhThach": 24414,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 65,
+      "tamMaChance": 28.5,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1105919,
+        "linhThach": 48828,
+        "danhVong": 337
+      }
+    },
+    "possibleEvents": [
+      "luyen_hu_event",
+      "bi_canh_event",
+      "co_duyen_boss"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Hư Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 31,
+    "name": "Luyện Hư Đại Viên Mãn",
+    "emoji": "🌫️",
+    "stage": "Luyện Hư",
+    "tier": "Đại Viên Mãn",
+    "description": "Luyện Hư đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 26542080,
+      "linhThach": 29324,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 65,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2654208,
+        "linhThach": 58648,
+        "danhVong": 351
+      }
+    },
+    "possibleEvents": [
+      "luyen_hu_event",
+      "bi_canh_event",
+      "co_duyen_boss"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Luyện Hư Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 32,
+    "name": "Hợp Thể Sơ Kỳ",
+    "emoji": "🤝",
+    "stage": "Hợp Thể",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Hợp Thể, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 3000000,
+      "linhThach": 35222,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 60,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 300000,
+        "linhThach": 70444,
+        "danhVong": 366
+      }
+    },
+    "possibleEvents": [
+      "hop_the_event",
+      "thien_kiep_nho",
+      "cuop_tai_nguyen_lon"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hợp Thể Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 33,
+    "name": "Hợp Thể Trung Kỳ",
+    "emoji": "🤝",
+    "stage": "Hợp Thể",
+    "tier": "Trung Kỳ",
+    "description": "Hợp Thể trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 7500000,
+      "linhThach": 42306,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 60,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 750000,
+        "linhThach": 84612,
+        "danhVong": 381
+      }
+    },
+    "possibleEvents": [
+      "hop_the_event",
+      "thien_kiep_nho",
+      "cuop_tai_nguyen_lon"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hợp Thể Trung Kỳ đã thành!"
+  },
+  {
+    "id": 34,
+    "name": "Hợp Thể Hậu Kỳ",
+    "emoji": "🤝",
+    "stage": "Hợp Thể",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Hợp Thể, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 18750000,
+      "linhThach": 50815,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 60,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1875000,
+        "linhThach": 101630,
+        "danhVong": 396
+      }
+    },
+    "possibleEvents": [
+      "hop_the_event",
+      "thien_kiep_nho",
+      "cuop_tai_nguyen_lon"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hợp Thể Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 35,
+    "name": "Hợp Thể Đỉnh Phong",
+    "emoji": "🤝",
+    "stage": "Hợp Thể",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Hợp Thể, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 46875000,
+      "linhThach": 61035,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 60,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 4687500,
+        "linhThach": 122070,
+        "danhVong": 413
+      }
+    },
+    "possibleEvents": [
+      "hop_the_event",
+      "thien_kiep_nho",
+      "cuop_tai_nguyen_lon"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hợp Thể Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 36,
+    "name": "Hợp Thể Đại Viên Mãn",
+    "emoji": "🤝",
+    "stage": "Hợp Thể",
+    "tier": "Đại Viên Mãn",
+    "description": "Hợp Thể đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 117187500,
+      "linhThach": 73310,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 60,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 11718750,
+        "linhThach": 146620,
+        "danhVong": 430
+      }
+    },
+    "possibleEvents": [
+      "hop_the_event",
+      "thien_kiep_nho",
+      "cuop_tai_nguyen_lon"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Hợp Thể Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 37,
+    "name": "Đại Thừa Sơ Kỳ",
+    "emoji": "🌟",
+    "stage": "Đại Thừa",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Đại Thừa, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 10000000,
+      "linhThach": 88055,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 55,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1000000,
+        "linhThach": 176110,
+        "danhVong": 448
+      }
+    },
+    "possibleEvents": [
+      "dai_thua_event",
+      "co_duyen_phi_thang",
+      "tam_ma_cuc_manh"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Thừa Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 38,
+    "name": "Đại Thừa Trung Kỳ",
+    "emoji": "🌟",
+    "stage": "Đại Thừa",
+    "tier": "Trung Kỳ",
+    "description": "Đại Thừa trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 26000000,
+      "linhThach": 105765,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 55,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2600000,
+        "linhThach": 211530,
+        "danhVong": 466
+      }
+    },
+    "possibleEvents": [
+      "dai_thua_event",
+      "co_duyen_phi_thang",
+      "tam_ma_cuc_manh"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Thừa Trung Kỳ đã thành!"
+  },
+  {
+    "id": 39,
+    "name": "Đại Thừa Hậu Kỳ",
+    "emoji": "🌟",
+    "stage": "Đại Thừa",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Đại Thừa, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 67600000,
+      "linhThach": 127037,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 55,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 6760000,
+        "linhThach": 254074,
+        "danhVong": 486
+      }
+    },
+    "possibleEvents": [
+      "dai_thua_event",
+      "co_duyen_phi_thang",
+      "tam_ma_cuc_manh"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Thừa Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 40,
+    "name": "Đại Thừa Đỉnh Phong",
+    "emoji": "🌟",
+    "stage": "Đại Thừa",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Đại Thừa, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 175760000,
+      "linhThach": 152587,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 55,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 17576000,
+        "linhThach": 305174,
+        "danhVong": 506
+      }
+    },
+    "possibleEvents": [
+      "dai_thua_event",
+      "co_duyen_phi_thang",
+      "tam_ma_cuc_manh"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Thừa Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 41,
+    "name": "Đại Thừa Đại Viên Mãn",
+    "emoji": "🌟",
+    "stage": "Đại Thừa",
+    "tier": "Đại Viên Mãn",
+    "description": "Đại Thừa đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 456976000,
+      "linhThach": 183277,
+      "thienKiep": false
+    },
+    "breakthrough": {
+      "baseSuccessRate": 55,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Tâm ma xâm nhập"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 45697600,
+        "linhThach": 366554,
+        "danhVong": 527
+      }
+    },
+    "possibleEvents": [
+      "dai_thua_event",
+      "co_duyen_phi_thang",
+      "tam_ma_cuc_manh"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Thừa Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 42,
+    "name": "Độ Kiếp Sơ Kỳ",
+    "emoji": "🌩️",
+    "stage": "Độ Kiếp",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Độ Kiếp, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 35000000,
+      "linhThach": 220138,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 50,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 3500000,
+        "linhThach": 440276,
+        "danhVong": 549
+      }
+    },
+    "possibleEvents": [
+      "thien_kiep",
+      "do_kiep_event",
+      "gap_cao_thu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Độ Kiếp Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 43,
+    "name": "Độ Kiếp Trung Kỳ",
+    "emoji": "🌩️",
+    "stage": "Độ Kiếp",
+    "tier": "Trung Kỳ",
+    "description": "Độ Kiếp trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 94500000,
+      "linhThach": 264413,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 50,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 9450000,
+        "linhThach": 528826,
+        "danhVong": 571
+      }
+    },
+    "possibleEvents": [
+      "thien_kiep",
+      "do_kiep_event",
+      "gap_cao_thu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Độ Kiếp Trung Kỳ đã thành!"
+  },
+  {
+    "id": 44,
+    "name": "Độ Kiếp Hậu Kỳ",
+    "emoji": "🌩️",
+    "stage": "Độ Kiếp",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Độ Kiếp, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 255150000,
+      "linhThach": 317593,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 50,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 25515000,
+        "linhThach": 635186,
+        "danhVong": 595
+      }
+    },
+    "possibleEvents": [
+      "thien_kiep",
+      "do_kiep_event",
+      "gap_cao_thu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Độ Kiếp Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 45,
+    "name": "Độ Kiếp Đỉnh Phong",
+    "emoji": "🌩️",
+    "stage": "Độ Kiếp",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Độ Kiếp, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 688905000,
+      "linhThach": 381469,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 50,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 68890500,
+        "linhThach": 762938,
+        "danhVong": 620
+      }
+    },
+    "possibleEvents": [
+      "thien_kiep",
+      "do_kiep_event",
+      "gap_cao_thu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Độ Kiếp Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 46,
+    "name": "Độ Kiếp Đại Viên Mãn",
+    "emoji": "🌩️",
+    "stage": "Độ Kiếp",
+    "tier": "Đại Viên Mãn",
+    "description": "Độ Kiếp đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 1860043500,
+      "linhThach": 458192,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 50,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 186004350,
+        "linhThach": 916384,
+        "danhVong": 645
+      }
+    },
+    "possibleEvents": [
+      "thien_kiep",
+      "do_kiep_event",
+      "gap_cao_thu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Độ Kiếp Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 47,
+    "name": "Phi Thăng Sơ Kỳ",
+    "emoji": "🕊️",
+    "stage": "Phi Thăng",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Phi Thăng, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 100000000,
+      "linhThach": 550346,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 48,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 10000000,
+        "linhThach": 1100692,
+        "danhVong": 672
+      }
+    },
+    "possibleEvents": [
+      "phi_thang_event",
+      "thien_kiep_lon",
+      "len_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Phi Thăng Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 48,
+    "name": "Phi Thăng Trung Kỳ",
+    "emoji": "🕊️",
+    "stage": "Phi Thăng",
+    "tier": "Trung Kỳ",
+    "description": "Phi Thăng trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 280000000,
+      "linhThach": 661034,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 48,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 28000000,
+        "linhThach": 1322068,
+        "danhVong": 700
+      }
+    },
+    "possibleEvents": [
+      "phi_thang_event",
+      "thien_kiep_lon",
+      "len_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Phi Thăng Trung Kỳ đã thành!"
+  },
+  {
+    "id": 49,
+    "name": "Phi Thăng Hậu Kỳ",
+    "emoji": "🕊️",
+    "stage": "Phi Thăng",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Phi Thăng, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 783999999,
+      "linhThach": 793984,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 48,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 78399999,
+        "linhThach": 1587968,
+        "danhVong": 729
+      }
+    },
+    "possibleEvents": [
+      "phi_thang_event",
+      "thien_kiep_lon",
+      "len_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Phi Thăng Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 50,
+    "name": "Phi Thăng Đỉnh Phong",
+    "emoji": "🕊️",
+    "stage": "Phi Thăng",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Phi Thăng, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 2195199999,
+      "linhThach": 953674,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 48,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 219519999,
+        "linhThach": 1907348,
+        "danhVong": 759
+      }
+    },
+    "possibleEvents": [
+      "phi_thang_event",
+      "thien_kiep_lon",
+      "len_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Phi Thăng Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 51,
+    "name": "Phi Thăng Đại Viên Mãn",
+    "emoji": "🕊️",
+    "stage": "Phi Thăng",
+    "tier": "Đại Viên Mãn",
+    "description": "Phi Thăng đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 6146559999,
+      "linhThach": 1145481,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 48,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 614655999,
+        "linhThach": 2290962,
+        "danhVong": 790
+      }
+    },
+    "possibleEvents": [
+      "phi_thang_event",
+      "thien_kiep_lon",
+      "len_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Phi Thăng Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 52,
+    "name": "Chân Tiên Sơ Kỳ",
+    "emoji": "✨",
+    "stage": "Chân Tiên",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Chân Tiên, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 300000000,
+      "linhThach": 1375865,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 45,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 30000000,
+        "linhThach": 2751730,
+        "danhVong": 823
+      }
+    },
+    "possibleEvents": [
+      "chan_tien_event",
+      "tien_gioi_su_kien",
+      "cuop_tai_nguyen_tien"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chân Tiên Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 53,
+    "name": "Chân Tiên Trung Kỳ",
+    "emoji": "✨",
+    "stage": "Chân Tiên",
+    "tier": "Trung Kỳ",
+    "description": "Chân Tiên trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 900000000,
+      "linhThach": 1652586,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 45,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 90000000,
+        "linhThach": 3305172,
+        "danhVong": 857
+      }
+    },
+    "possibleEvents": [
+      "chan_tien_event",
+      "tien_gioi_su_kien",
+      "cuop_tai_nguyen_tien"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chân Tiên Trung Kỳ đã thành!"
+  },
+  {
+    "id": 54,
+    "name": "Chân Tiên Hậu Kỳ",
+    "emoji": "✨",
+    "stage": "Chân Tiên",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Chân Tiên, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 2700000000,
+      "linhThach": 1984961,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 45,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 270000000,
+        "linhThach": 3969922,
+        "danhVong": 893
+      }
+    },
+    "possibleEvents": [
+      "chan_tien_event",
+      "tien_gioi_su_kien",
+      "cuop_tai_nguyen_tien"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chân Tiên Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 55,
+    "name": "Chân Tiên Đỉnh Phong",
+    "emoji": "✨",
+    "stage": "Chân Tiên",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Chân Tiên, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 8100000000,
+      "linhThach": 2384185,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 45,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 810000000,
+        "linhThach": 4768370,
+        "danhVong": 930
+      }
+    },
+    "possibleEvents": [
+      "chan_tien_event",
+      "tien_gioi_su_kien",
+      "cuop_tai_nguyen_tien"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chân Tiên Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 56,
+    "name": "Chân Tiên Đại Viên Mãn",
+    "emoji": "✨",
+    "stage": "Chân Tiên",
+    "tier": "Đại Viên Mãn",
+    "description": "Chân Tiên đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 24300000000,
+      "linhThach": 2863703,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 45,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2430000000,
+        "linhThach": 5727406,
+        "danhVong": 968
+      }
+    },
+    "possibleEvents": [
+      "chan_tien_event",
+      "tien_gioi_su_kien",
+      "cuop_tai_nguyen_tien"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chân Tiên Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 57,
+    "name": "Huyền Tiên Sơ Kỳ",
+    "emoji": "🔮",
+    "stage": "Huyền Tiên",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Huyền Tiên, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 1000000000,
+      "linhThach": 3439664,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 42,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 100000000,
+        "linhThach": 6879328,
+        "danhVong": 1008
+      }
+    },
+    "possibleEvents": [
+      "huyen_tien_event",
+      "co_duyen_huyen_tien",
+      "chien_tranh_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Huyền Tiên Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 58,
+    "name": "Huyền Tiên Trung Kỳ",
+    "emoji": "🔮",
+    "stage": "Huyền Tiên",
+    "tier": "Trung Kỳ",
+    "description": "Huyền Tiên trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 3200000000,
+      "linhThach": 4131465,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 42,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 320000000,
+        "linhThach": 8262930,
+        "danhVong": 1050
+      }
+    },
+    "possibleEvents": [
+      "huyen_tien_event",
+      "co_duyen_huyen_tien",
+      "chien_tranh_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Huyền Tiên Trung Kỳ đã thành!"
+  },
+  {
+    "id": 59,
+    "name": "Huyền Tiên Hậu Kỳ",
+    "emoji": "🔮",
+    "stage": "Huyền Tiên",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Huyền Tiên, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 10240000000,
+      "linhThach": 4962403,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 42,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1024000000,
+        "linhThach": 9924806,
+        "danhVong": 1093
+      }
+    },
+    "possibleEvents": [
+      "huyen_tien_event",
+      "co_duyen_huyen_tien",
+      "chien_tranh_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Huyền Tiên Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 60,
+    "name": "Huyền Tiên Đỉnh Phong",
+    "emoji": "🔮",
+    "stage": "Huyền Tiên",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Huyền Tiên, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 32768000000,
+      "linhThach": 5960464,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 42,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 3276800000,
+        "linhThach": 11920928,
+        "danhVong": 1139
+      }
+    },
+    "possibleEvents": [
+      "huyen_tien_event",
+      "co_duyen_huyen_tien",
+      "chien_tranh_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Huyền Tiên Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 61,
+    "name": "Huyền Tiên Đại Viên Mãn",
+    "emoji": "🔮",
+    "stage": "Huyền Tiên",
+    "tier": "Đại Viên Mãn",
+    "description": "Huyền Tiên đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 104857600000,
+      "linhThach": 7159259,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 42,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 10485760000,
+        "linhThach": 14318518,
+        "danhVong": 1186
+      }
+    },
+    "possibleEvents": [
+      "huyen_tien_event",
+      "co_duyen_huyen_tien",
+      "chien_tranh_tien_gioi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Huyền Tiên Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 62,
+    "name": "Địa Tiên Sơ Kỳ",
+    "emoji": "🌍",
+    "stage": "Địa Tiên",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Địa Tiên, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 5000000000,
+      "linhThach": 8599161,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 40,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 500000000,
+        "linhThach": 17198322,
+        "danhVong": 1235
+      }
+    },
+    "possibleEvents": [
+      "dia_tien_event",
+      "thanh_lap_dong_phu",
+      "thu_nhan_de_tu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Địa Tiên Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 63,
+    "name": "Địa Tiên Trung Kỳ",
+    "emoji": "🌍",
+    "stage": "Địa Tiên",
+    "tier": "Trung Kỳ",
+    "description": "Địa Tiên trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 17000000000,
+      "linhThach": 10328663,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 40,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1700000000,
+        "linhThach": 20657326,
+        "danhVong": 1286
+      }
+    },
+    "possibleEvents": [
+      "dia_tien_event",
+      "thanh_lap_dong_phu",
+      "thu_nhan_de_tu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Địa Tiên Trung Kỳ đã thành!"
+  },
+  {
+    "id": 64,
+    "name": "Địa Tiên Hậu Kỳ",
+    "emoji": "🌍",
+    "stage": "Địa Tiên",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Địa Tiên, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 57799999999,
+      "linhThach": 12406009,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 40,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 5779999999,
+        "linhThach": 24812018,
+        "danhVong": 1339
+      }
+    },
+    "possibleEvents": [
+      "dia_tien_event",
+      "thanh_lap_dong_phu",
+      "thu_nhan_de_tu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Địa Tiên Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 65,
+    "name": "Địa Tiên Đỉnh Phong",
+    "emoji": "🌍",
+    "stage": "Địa Tiên",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Địa Tiên, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 196519999999,
+      "linhThach": 14901161,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 40,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 19651999999,
+        "linhThach": 29802322,
+        "danhVong": 1395
+      }
+    },
+    "possibleEvents": [
+      "dia_tien_event",
+      "thanh_lap_dong_phu",
+      "thu_nhan_de_tu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Địa Tiên Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 66,
+    "name": "Địa Tiên Đại Viên Mãn",
+    "emoji": "🌍",
+    "stage": "Địa Tiên",
+    "tier": "Đại Viên Mãn",
+    "description": "Địa Tiên đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 668167999999,
+      "linhThach": 17898148,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 40,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 66816799999,
+        "linhThach": 35796296,
+        "danhVong": 1452
+      }
+    },
+    "possibleEvents": [
+      "dia_tien_event",
+      "thanh_lap_dong_phu",
+      "thu_nhan_de_tu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Địa Tiên Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 67,
+    "name": "Thiên Tiên Sơ Kỳ",
+    "emoji": "☁️",
+    "stage": "Thiên Tiên",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Thiên Tiên, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 20000000000,
+      "linhThach": 21497903,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 38,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2000000000,
+        "linhThach": 42995806,
+        "danhVong": 1512
+      }
+    },
+    "possibleEvents": [
+      "thien_tien_event",
+      "thien_kiep_cuc_manh",
+      "tranh_gianh_dao_phap"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thiên Tiên Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 68,
+    "name": "Thiên Tiên Trung Kỳ",
+    "emoji": "☁️",
+    "stage": "Thiên Tiên",
+    "tier": "Trung Kỳ",
+    "description": "Thiên Tiên trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 72000000000,
+      "linhThach": 25821657,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 38,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 7200000000,
+        "linhThach": 51643314,
+        "danhVong": 1575
+      }
+    },
+    "possibleEvents": [
+      "thien_tien_event",
+      "thien_kiep_cuc_manh",
+      "tranh_gianh_dao_phap"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thiên Tiên Trung Kỳ đã thành!"
+  },
+  {
+    "id": 69,
+    "name": "Thiên Tiên Hậu Kỳ",
+    "emoji": "☁️",
+    "stage": "Thiên Tiên",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Thiên Tiên, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 259200000000,
+      "linhThach": 31015023,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 38,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 25920000000,
+        "linhThach": 62030046,
+        "danhVong": 1640
+      }
+    },
+    "possibleEvents": [
+      "thien_tien_event",
+      "thien_kiep_cuc_manh",
+      "tranh_gianh_dao_phap"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thiên Tiên Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 70,
+    "name": "Thiên Tiên Đỉnh Phong",
+    "emoji": "☁️",
+    "stage": "Thiên Tiên",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Thiên Tiên, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 933120000000,
+      "linhThach": 37252902,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 38,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 93312000000,
+        "linhThach": 74505804,
+        "danhVong": 1708
+      }
+    },
+    "possibleEvents": [
+      "thien_tien_event",
+      "thien_kiep_cuc_manh",
+      "tranh_gianh_dao_phap"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thiên Tiên Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 71,
+    "name": "Thiên Tiên Đại Viên Mãn",
+    "emoji": "☁️",
+    "stage": "Thiên Tiên",
+    "tier": "Đại Viên Mãn",
+    "description": "Thiên Tiên đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 3359232000000,
+      "linhThach": 44745372,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 38,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 335923200000,
+        "linhThach": 89490744,
+        "danhVong": 1779
+      }
+    },
+    "possibleEvents": [
+      "thien_tien_event",
+      "thien_kiep_cuc_manh",
+      "tranh_gianh_dao_phap"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thiên Tiên Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 72,
+    "name": "Kim Tiên Sơ Kỳ",
+    "emoji": "🏵️",
+    "stage": "Kim Tiên",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Kim Tiên, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 100000000000,
+      "linhThach": 53744759,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 35,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 10000000000,
+        "linhThach": 107489518,
+        "danhVong": 1852
+      }
+    },
+    "possibleEvents": [
+      "kim_tien_event",
+      "co_duyen_de",
+      "boss_tien_de"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Tiên Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 73,
+    "name": "Kim Tiên Trung Kỳ",
+    "emoji": "🏵️",
+    "stage": "Kim Tiên",
+    "tier": "Trung Kỳ",
+    "description": "Kim Tiên trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 380000000000,
+      "linhThach": 64554143,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 35,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 38000000000,
+        "linhThach": 129108286,
+        "danhVong": 1929
+      }
+    },
+    "possibleEvents": [
+      "kim_tien_event",
+      "co_duyen_de",
+      "boss_tien_de"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Tiên Trung Kỳ đã thành!"
+  },
+  {
+    "id": 74,
+    "name": "Kim Tiên Hậu Kỳ",
+    "emoji": "🏵️",
+    "stage": "Kim Tiên",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Kim Tiên, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 1444000000000,
+      "linhThach": 77537559,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 35,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 144400000000,
+        "linhThach": 155075118,
+        "danhVong": 2009
+      }
+    },
+    "possibleEvents": [
+      "kim_tien_event",
+      "co_duyen_de",
+      "boss_tien_de"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Tiên Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 75,
+    "name": "Kim Tiên Đỉnh Phong",
+    "emoji": "🏵️",
+    "stage": "Kim Tiên",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Kim Tiên, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 5487199999999,
+      "linhThach": 93132257,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 35,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 548719999999,
+        "linhThach": 186264514,
+        "danhVong": 2092
+      }
+    },
+    "possibleEvents": [
+      "kim_tien_event",
+      "co_duyen_de",
+      "boss_tien_de"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Tiên Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 76,
+    "name": "Kim Tiên Đại Viên Mãn",
+    "emoji": "🏵️",
+    "stage": "Kim Tiên",
+    "tier": "Đại Viên Mãn",
+    "description": "Kim Tiên đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 20851359999999,
+      "linhThach": 111863430,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 35,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2085135999999,
+        "linhThach": 223726860,
+        "danhVong": 2179
+      }
+    },
+    "possibleEvents": [
+      "kim_tien_event",
+      "co_duyen_de",
+      "boss_tien_de"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Kim Tiên Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 77,
+    "name": "Thái Ất Kim Tiên Sơ Kỳ",
+    "emoji": "☯️",
+    "stage": "Thái Ất Kim Tiên",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Thái Ất Kim Tiên, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 500000000000,
+      "linhThach": 134361899,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 32,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 50000000000,
+        "linhThach": 268723798,
+        "danhVong": 2269
+      }
+    },
+    "possibleEvents": [
+      "thai_at_event",
+      "chuan_bi_chung_de",
+      "tam_ma_sat_than"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thái Ất Kim Tiên Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 78,
+    "name": "Thái Ất Kim Tiên Trung Kỳ",
+    "emoji": "☯️",
+    "stage": "Thái Ất Kim Tiên",
+    "tier": "Trung Kỳ",
+    "description": "Thái Ất Kim Tiên trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 2000000000000,
+      "linhThach": 161385359,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 32,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 200000000000,
+        "linhThach": 322770718,
+        "danhVong": 2363
+      }
+    },
+    "possibleEvents": [
+      "thai_at_event",
+      "chuan_bi_chung_de",
+      "tam_ma_sat_than"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thái Ất Kim Tiên Trung Kỳ đã thành!"
+  },
+  {
+    "id": 79,
+    "name": "Thái Ất Kim Tiên Hậu Kỳ",
+    "emoji": "☯️",
+    "stage": "Thái Ất Kim Tiên",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Thái Ất Kim Tiên, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 8000000000000,
+      "linhThach": 193843899,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 32,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 800000000000,
+        "linhThach": 387687798,
+        "danhVong": 2461
+      }
+    },
+    "possibleEvents": [
+      "thai_at_event",
+      "chuan_bi_chung_de",
+      "tam_ma_sat_than"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thái Ất Kim Tiên Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 80,
+    "name": "Thái Ất Kim Tiên Đỉnh Phong",
+    "emoji": "☯️",
+    "stage": "Thái Ất Kim Tiên",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Thái Ất Kim Tiên, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 32000000000000,
+      "linhThach": 232830643,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 32,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 3200000000000,
+        "linhThach": 465661286,
+        "danhVong": 2562
+      }
+    },
+    "possibleEvents": [
+      "thai_at_event",
+      "chuan_bi_chung_de",
+      "tam_ma_sat_than"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thái Ất Kim Tiên Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 81,
+    "name": "Thái Ất Kim Tiên Đại Viên Mãn",
+    "emoji": "☯️",
+    "stage": "Thái Ất Kim Tiên",
+    "tier": "Đại Viên Mãn",
+    "description": "Thái Ất Kim Tiên đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 128000000000000,
+      "linhThach": 279658575,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 32,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 12800000000000,
+        "linhThach": 559317150,
+        "danhVong": 2668
+      }
+    },
+    "possibleEvents": [
+      "thai_at_event",
+      "chuan_bi_chung_de",
+      "tam_ma_sat_than"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Thái Ất Kim Tiên Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 82,
+    "name": "Chuẩn Đế Sơ Kỳ",
+    "emoji": "👑",
+    "stage": "Chuẩn Đế",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Chuẩn Đế, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 2000000000000,
+      "linhThach": 335904747,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 28,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 200000000000,
+        "linhThach": 671809494,
+        "danhVong": 2779
+      }
+    },
+    "possibleEvents": [
+      "chuan_de_event",
+      "thien_kiep_chung_de",
+      "tranh_de_vi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chuẩn Đế Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 83,
+    "name": "Chuẩn Đế Trung Kỳ",
+    "emoji": "👑",
+    "stage": "Chuẩn Đế",
+    "tier": "Trung Kỳ",
+    "description": "Chuẩn Đế trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 8400000000000,
+      "linhThach": 403463399,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 28,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 840000000000,
+        "linhThach": 806926798,
+        "danhVong": 2894
+      }
+    },
+    "possibleEvents": [
+      "chuan_de_event",
+      "thien_kiep_chung_de",
+      "tranh_de_vi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chuẩn Đế Trung Kỳ đã thành!"
+  },
+  {
+    "id": 84,
+    "name": "Chuẩn Đế Hậu Kỳ",
+    "emoji": "👑",
+    "stage": "Chuẩn Đế",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Chuẩn Đế, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 35280000000000,
+      "linhThach": 484609747,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 28,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 3528000000000,
+        "linhThach": 969219494,
+        "danhVong": 3014
+      }
+    },
+    "possibleEvents": [
+      "chuan_de_event",
+      "thien_kiep_chung_de",
+      "tranh_de_vi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chuẩn Đế Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 85,
+    "name": "Chuẩn Đế Đỉnh Phong",
+    "emoji": "👑",
+    "stage": "Chuẩn Đế",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Chuẩn Đế, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 148176000000000,
+      "linhThach": 582076609,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 28,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 14817600000000,
+        "linhThach": 1164153218,
+        "danhVong": 3138
+      }
+    },
+    "possibleEvents": [
+      "chuan_de_event",
+      "thien_kiep_chung_de",
+      "tranh_de_vi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chuẩn Đế Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 86,
+    "name": "Chuẩn Đế Đại Viên Mãn",
+    "emoji": "👑",
+    "stage": "Chuẩn Đế",
+    "tier": "Đại Viên Mãn",
+    "description": "Chuẩn Đế đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 622339200000000,
+      "linhThach": 699146437,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 28,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 62233920000000,
+        "linhThach": 1398292874,
+        "danhVong": 3268
+      }
+    },
+    "possibleEvents": [
+      "chuan_de_event",
+      "thien_kiep_chung_de",
+      "tranh_de_vi"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Chuẩn Đế Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 87,
+    "name": "Đại Đế Sơ Kỳ",
+    "emoji": "⚔️",
+    "stage": "Đại Đế",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Đại Đế, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 10000000000000,
+      "linhThach": 839761869,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 25,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 1000000000000,
+        "linhThach": 1679523738,
+        "danhVong": 3404
+      }
+    },
+    "possibleEvents": [
+      "dai_de_event",
+      "thong_tri_mot_gioi",
+      "thu_phuc_tien_nhan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Đế Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 88,
+    "name": "Đại Đế Trung Kỳ",
+    "emoji": "⚔️",
+    "stage": "Đại Đế",
+    "tier": "Trung Kỳ",
+    "description": "Đại Đế trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 44000000000000,
+      "linhThach": 1008658499,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 25,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 4400000000000,
+        "linhThach": 2017316998,
+        "danhVong": 3544
+      }
+    },
+    "possibleEvents": [
+      "dai_de_event",
+      "thong_tri_mot_gioi",
+      "thu_phuc_tien_nhan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Đế Trung Kỳ đã thành!"
+  },
+  {
+    "id": 89,
+    "name": "Đại Đế Hậu Kỳ",
+    "emoji": "⚔️",
+    "stage": "Đại Đế",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Đại Đế, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 193600000000000,
+      "linhThach": 1211524369,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 25,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 19360000000000,
+        "linhThach": 2423048738,
+        "danhVong": 3691
+      }
+    },
+    "possibleEvents": [
+      "dai_de_event",
+      "thong_tri_mot_gioi",
+      "thu_phuc_tien_nhan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Đế Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 90,
+    "name": "Đại Đế Đỉnh Phong",
+    "emoji": "⚔️",
+    "stage": "Đại Đế",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Đại Đế, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 851840000000000,
+      "linhThach": 1455191522,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 25,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 85184000000000,
+        "linhThach": 2910383044,
+        "danhVong": 3844
+      }
+    },
+    "possibleEvents": [
+      "dai_de_event",
+      "thong_tri_mot_gioi",
+      "thu_phuc_tien_nhan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Đế Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 91,
+    "name": "Đại Đế Đại Viên Mãn",
+    "emoji": "⚔️",
+    "stage": "Đại Đế",
+    "tier": "Đại Viên Mãn",
+    "description": "Đại Đế đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 3748096000000001,
+      "linhThach": 1747866094,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 25,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 374809600000000,
+        "linhThach": 3495732188,
+        "danhVong": 4003
+      }
+    },
+    "possibleEvents": [
+      "dai_de_event",
+      "thong_tri_mot_gioi",
+      "thu_phuc_tien_nhan"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đại Đế Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 92,
+    "name": "Tiên Đế Sơ Kỳ",
+    "emoji": "🌌",
+    "stage": "Tiên Đế",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Tiên Đế, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 50000000000000,
+      "linhThach": 2099404673,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 22,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 5000000000000,
+        "linhThach": 4198809346,
+        "danhVong": 4169
+      }
+    },
+    "possibleEvents": [
+      "tien_de_event",
+      "chien_dau_de_to",
+      "lap_de_trieu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Tiên Đế Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 93,
+    "name": "Tiên Đế Trung Kỳ",
+    "emoji": "🌌",
+    "stage": "Tiên Đế",
+    "tier": "Trung Kỳ",
+    "description": "Tiên Đế trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 229999999999999,
+      "linhThach": 2521646249,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 22,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 22999999999999,
+        "linhThach": 5043292498,
+        "danhVong": 4341
+      }
+    },
+    "possibleEvents": [
+      "tien_de_event",
+      "chien_dau_de_to",
+      "lap_de_trieu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Tiên Đế Trung Kỳ đã thành!"
+  },
+  {
+    "id": 94,
+    "name": "Tiên Đế Hậu Kỳ",
+    "emoji": "🌌",
+    "stage": "Tiên Đế",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Tiên Đế, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 1057999999999999,
+      "linhThach": 3028810924,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 22,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 105799999999999,
+        "linhThach": 6057621848,
+        "danhVong": 4521
+      }
+    },
+    "possibleEvents": [
+      "tien_de_event",
+      "chien_dau_de_to",
+      "lap_de_trieu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Tiên Đế Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 95,
+    "name": "Tiên Đế Đỉnh Phong",
+    "emoji": "🌌",
+    "stage": "Tiên Đế",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Tiên Đế, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 4866799999999999,
+      "linhThach": 3637978807,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 22,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 486679999999999,
+        "linhThach": 7275957614,
+        "danhVong": 4708
+      }
+    },
+    "possibleEvents": [
+      "tien_de_event",
+      "chien_dau_de_to",
+      "lap_de_trieu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Tiên Đế Đỉnh Phong đã thành!"
+  },
+  {
+    "id": 96,
+    "name": "Tiên Đế Đại Viên Mãn",
+    "emoji": "🌌",
+    "stage": "Tiên Đế",
+    "tier": "Đại Viên Mãn",
+    "description": "Tiên Đế đại viên mãn, hoàn toàn chắc chắn. Sẵn sàng đột phá lên cảnh giới tiếp theo.",
+    "requirements": {
+      "tuVi": 22387279999999990,
+      "linhThach": 4369665235,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 22,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Có thể bị thương nặng",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 2238727999999999,
+        "linhThach": 8739330470,
+        "danhVong": 4903
+      }
+    },
+    "possibleEvents": [
+      "tien_de_event",
+      "chien_dau_de_to",
+      "lap_de_trieu"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Tiên Đế Đại Viên Mãn đã thành!"
+  },
+  {
+    "id": 97,
+    "name": "Đế Tổ Sơ Kỳ",
+    "emoji": "🔱",
+    "stage": "Đế Tổ",
+    "tier": "Sơ Kỳ",
+    "description": "Bước vào Đế Tổ, linh lực bắt đầu chuyển hóa. Cảm giác mới mẻ mà cũng đầy nguy hiểm.",
+    "requirements": {
+      "tuVi": 250000000000000,
+      "linhThach": 5248511682,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 20,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 25000000000000,
+        "linhThach": 10497023364,
+        "danhVong": 5106
+      }
+    },
+    "possibleEvents": [
+      "de_to_event",
+      "dinh_phong_van_gioi",
+      "bao_ve_dai_dao"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đế Tổ Sơ Kỳ đã thành!"
+  },
+  {
+    "id": 98,
+    "name": "Đế Tổ Trung Kỳ",
+    "emoji": "🔱",
+    "stage": "Đế Tổ",
+    "tier": "Trung Kỳ",
+    "description": "Đế Tổ trung kỳ, tu vi dần dần ổn định. Lực lượng tăng mạnh rõ rệt.",
+    "requirements": {
+      "tuVi": 1250000000000000,
+      "linhThach": 6304115624,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 20,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 125000000000000,
+        "linhThach": 12608231248,
+        "danhVong": 5317
+      }
+    },
+    "possibleEvents": [
+      "de_to_event",
+      "dinh_phong_van_gioi",
+      "bao_ve_dai_dao"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đế Tổ Trung Kỳ đã thành!"
+  },
+  {
+    "id": 99,
+    "name": "Đế Tổ Hậu Kỳ",
+    "emoji": "🔱",
+    "stage": "Đế Tổ",
+    "tier": "Hậu Kỳ",
+    "description": "Hậu kỳ Đế Tổ, đã hiểu rõ bản chất. Sức mạnh ngày càng sâu sắc.",
+    "requirements": {
+      "tuVi": 6250000000000000,
+      "linhThach": 7572027310,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 20,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 625000000000000,
+        "linhThach": 15144054620,
+        "danhVong": 5537
+      }
+    },
+    "possibleEvents": [
+      "de_to_event",
+      "dinh_phong_van_gioi",
+      "bao_ve_dai_dao"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đế Tổ Hậu Kỳ đã thành!"
+  },
+  {
+    "id": 100,
+    "name": "Đế Tổ Đỉnh Phong",
+    "emoji": "🔱",
+    "stage": "Đế Tổ",
+    "tier": "Đỉnh Phong",
+    "description": "Đỉnh phong Đế Tổ, chạm đến giới hạn. Chỉ còn một bước nữa là viên mãn.",
+    "requirements": {
+      "tuVi": 31250000000000000,
+      "linhThach": 9094947017,
+      "thienKiep": true
+    },
+    "breakthrough": {
+      "baseSuccessRate": 20,
+      "tamMaChance": 30,
+      "failureRisks": [
+        "Mất 10% tu vi hiện tại",
+        "Bị thương nhẹ",
+        "Có thể bị thiên kiếp trọng thương"
+      ],
+      "rewardOnSuccess": {
+        "tuVi": 3125000000000000,
+        "linhThach": 18189894034,
+        "danhVong": 5766
+      }
+    },
+    "possibleEvents": [
+      "de_to_event",
+      "dinh_phong_van_gioi",
+      "bao_ve_dai_dao"
+    ],
+    "successText": "Thiên địa linh khí dồn dập đổ vào, ngươi cảm thấy cơ thể thăng hoa. Đế Tổ Đỉnh Phong đã thành!"
+  }
+]

@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "pham_nhan_co_duyen",
+    "name": "Phàm Nhân Kỳ Ngộ",
+    "description": "Ngươi bắt gặp một lão giả kỳ lạ bên vệ đường, ông ta dường như có điều gì đó muốn nói...",
+    "availableFrom": 0,
+    "availableTo": 6,
+    "triggerChance": 15,
+    "khiVanModifier": 0.3,
+    "choices": [
+      {
+        "id": "help_old_man",
+        "text": "Giúp đỡ lão giả",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 60,
+            "description": "Lão giả cảm kích, đưa cho ngươi một cuốn bí tịch cổ xưa",
+            "effects": {
+              "canCot": 5,
+              "ngoTinh": 3,
+              "specialReward": "Bí Tịch Tu Tiên"
+            },
+            "flavor": "\"Ta thấy ngươi có căn cốt, đây là tâm pháp ta lúc trẻ tu luyện. Mong ngươi trân trọng!\""
+          },
+          {
+            "probability": 30,
+            "description": "Lão giả chỉ là người phàm bình thường, ngươi lãng phí thời gian",
+            "effects": {
+              "khiVan": -2
+            },
+            "flavor": "Hóa ra chỉ là một lão nông bình thường... Ta tưởng gặp được cao nhân."
+          },
+          {
+            "probability": 10,
+            "description": "Lão giả chính là một tu sĩ ẩn thế! Ông ta nhận ngươi làm đệ tử",
+            "effects": {
+              "canCot": 15,
+              "ngoTinh": 10,
+              "tuVi": 500,
+              "specialReward": "Sư Phụ Ẩn Thế"
+            },
+            "flavor": "\"Căn cốt phi phàm, tâm tính trong sáng. Ngươi có duyên với ta, làm đệ tử ta nhé!\""
+          }
+        ]
+      },
+      {
+        "id": "ignore_old_man",
+        "text": "Phớt lờ và đi tiếp",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Ngươi bỏ qua cơ hội này",
+            "effects": {},
+            "flavor": "Tu tiên chi lộ đầy rẫy hiểm nguy, cần phải thận trọng..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nhat_duoc_co_ngoc",
+    "name": "Nhặt Được Cổ Ngọc",
+    "description": "Trên đường tu luyện, ngươi bắt gặp một viên cổ ngọc phát sáng lấp lánh. Có vẻ không phải vật phàm...",
+    "availableFrom": 1,
+    "availableTo": 20,
+    "triggerChance": 12,
+    "khiVanModifier": 0.5,
+    "choices": [
+      {
+        "id": "take_jade",
+        "text": "Nhặt lấy cổ ngọc",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 50,
+            "description": "Đây là một cổ ngọc chứa linh khí! Tu vi tăng mạnh",
+            "effects": {
+              "tuVi": 1000,
+              "linhThach": 500,
+              "khiVan": 5
+            },
+            "flavor": "Linh khí từ cổ ngọc tràn vào cơ thể, cảm giác thật tuyệt vời!"
+          },
+          {
+            "probability": 30,
+            "description": "Đây chỉ là ngọc phàm bình thường, bán được một ít linh thạch",
+            "effects": {
+              "linhThach": 200
+            },
+            "flavor": "Tuy không phải bảo vật, nhưng cũng có chút giá trị."
+          },
+          {
+            "probability": 20,
+            "description": "Đây là bẫy! Cổ ngọc có chủ, ngươi bị truy sát",
+            "effects": {
+              "tuVi": -500,
+              "linhThach": -300,
+              "khiVan": -10
+            },
+            "flavor": "\"Dám lấy đồ của ta?! Tìm chết!\" - Một người tu sĩ mặc đen xuất hiện"
+          }
+        ]
+      },
+      {
+        "id": "leave_jade",
+        "text": "Không động đến, tiếp tục tu luyện",
+        "requirements": {
+          "tamCanh": 40
+        },
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Tâm cảnh vững vàng, không tham vọng vặt. Tâm cảnh tăng",
+            "effects": {
+              "tamCanh": 5,
+              "ngoTinh": 2
+            },
+            "flavor": "Tu tiên không phải chỉ là tranh đoạt, mà còn là tu tâm."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tam_ma_nhe",
+    "name": "Tâm Ma Khởi",
+    "description": "Trong lúc tu luyện, ngươi cảm thấy tâm trí bất an. Những suy nghĩ tiêu cực bắt đầu nhen nhóm...",
+    "availableFrom": 12,
+    "availableTo": 30,
+    "triggerChance": 20,
+    "khiVanModifier": -0.3,
+    "choices": [
+      {
+        "id": "resist_inner_demon",
+        "text": "Dùng tâm pháp áp chế",
+        "requirements": {
+          "tamCanh": 50
+        },
+        "outcomes": [
+          {
+            "probability": 70,
+            "description": "Tâm ma bị đẩy lùi thành công",
+            "effects": {
+              "tamCanh": 8,
+              "ngoTinh": 3
+            },
+            "flavor": "Tâm như chỉ nước, không lay động. Tâm ma tự tiêu tan."
+          },
+          {
+            "probability": 30,
+            "description": "Tâm ma quá mạnh, ngươi bị thương",
+            "effects": {
+              "tuVi": -1000,
+              "tamCanh": -5
+            },
+            "flavor": "\"Ngươi tưởng mình mạnh lắm sao?\" - Giọng nói ma mị trong đầu"
+          }
+        ]
+      },
+      {
+        "id": "embrace_inner_demon",
+        "text": "Thuận theo tâm ma, tăng sức mạnh tạm thời",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 40,
+            "description": "Tu vi tăng mạnh, nhưng tâm cảnh giảm nghiêm trọng",
+            "effects": {
+              "tuVi": 5000,
+              "tamCanh": -15,
+              "khiVan": -10
+            },
+            "flavor": "Sức mạnh tràn đầy... nhưng có điều gì đó không ổn trong tâm trí."
+          },
+          {
+            "probability": 60,
+            "description": "Tâm ma kiểm soát ngươi! Rơi vào tà đạo",
+            "effects": {
+              "tuVi": -3000,
+              "tamCanh": -25,
+              "ngoTinh": -10,
+              "specialReward": "Nhập Ma"
+            },
+            "flavor": "\"Tốt lắm... bây giờ ngươi là của ta rồi...\" *cười ma quái*"
+          }
+        ]
+      },
+      {
+        "id": "seek_help",
+        "text": "Tìm sư phụ/tông môn giúp đỡ",
+        "requirements": {
+          "linhThach": 1000
+        },
+        "outcomes": [
+          {
+            "probability": 90,
+            "description": "Tông môn giúp ngươi vượt qua tâm ma",
+            "effects": {
+              "linhThach": -1000,
+              "tamCanh": 5,
+              "danhVong": 10
+            },
+            "flavor": "\"Đệ tử, tâm ma là thử thách. Nhưng ta sẽ giúp ngươi lần này.\""
+          },
+          {
+            "probability": 10,
+            "description": "Không kịp, tâm ma đã xâm nhập sâu",
+            "effects": {
+              "linhThach": -1000,
+              "tuVi": -2000,
+              "tamCanh": -10
+            },
+            "flavor": "Đã muộn rồi..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bi_truy_sat",
+    "name": "Bị Truy Sát",
+    "description": "Một tu sĩ tà đạo nhòm ngó bảo vật của ngươi, hắn quyết định truy sát!",
+    "availableFrom": 7,
+    "availableTo": 40,
+    "triggerChance": 15,
+    "khiVanModifier": -0.4,
+    "choices": [
+      {
+        "id": "fight_back",
+        "text": "Chiến đấu chống lại",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 50,
+            "description": "Chiến thắng! Nhận được chiến lợi phẩm",
+            "effects": {
+              "tuVi": 3000,
+              "linhThach": 2000,
+              "danhVong": 50
+            },
+            "flavor": "\"Dám động đến ta? Chết đi!\" Ngươi giết chết tà tu."
+          },
+          {
+            "probability": 50,
+            "description": "Thất bại, bị thương nặng và mất tài sản",
+            "effects": {
+              "tuVi": -5000,
+              "linhThach": -1500,
+              "khiVan": -5
+            },
+            "flavor": "\"Ngươi còn non lắm!\" Hắn cười nhạo và cướp hết tài sản."
+          }
+        ]
+      },
+      {
+        "id": "escape",
+        "text": "Bỏ của chạy lấy người",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 80,
+            "description": "Ngươi chạy thoát thành công",
+            "effects": {
+              "linhThach": -800,
+              "danhVong": -10
+            },
+            "flavor": "\"Lưu đắc thanh sơn tại, chẳng sợ không có củi đốt...\""
+          },
+          {
+            "probability": 20,
+            "description": "Không thoát kịp, bị bắt và mất tất cả",
+            "effects": {
+              "tuVi": -3000,
+              "linhThach": -2000,
+              "khiVan": -10
+            },
+            "flavor": "\"Tưởng chạy được sao?\" Hắn đuổi kịp và hành hạ ngươi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bi_canh_mo_ra",
+    "name": "Bí Cảnh Mở Ra",
+    "description": "Ngươi phát hiện một bí cảnh cổ xưa vừa mở! Linh khí ngút trời nhưng cũng đầy nguy hiểm...",
+    "availableFrom": 10,
+    "availableTo": 60,
+    "triggerChance": 8,
+    "khiVanModifier": 0.6,
+    "choices": [
+      {
+        "id": "enter_secret_realm",
+        "text": "Tiến vào bí cảnh",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 40,
+            "description": "Nhận được cơ duyên lớn!",
+            "effects": {
+              "tuVi": 10000,
+              "linhThach": 5000,
+              "canCot": 8,
+              "ngoTinh": 8,
+              "specialReward": "Cổ Tiên Truyền Thừa"
+            },
+            "flavor": "Trong bí cảnh có một cổ tiên di tích! Ngươi được truyền thừa!"
+          },
+          {
+            "probability": 35,
+            "description": "Nhận được một ít bảo vật",
+            "effects": {
+              "tuVi": 3000,
+              "linhThach": 2000,
+              "khiVan": 5
+            },
+            "flavor": "Tuy không có truyền thừa lớn, nhưng cũng nhặt được nhiều linh thảo."
+          },
+          {
+            "probability": 25,
+            "description": "Gặp nguy hiểm! Suýt mất mạng",
+            "effects": {
+              "tuVi": -4000,
+              "linhThach": -1000,
+              "tamCanh": -5
+            },
+            "flavor": "Bí cảnh sụp đổ! Ngươi bị thương nặng mới thoát ra."
+          }
+        ]
+      },
+      {
+        "id": "wait_and_see",
+        "text": "Quan sát từ xa, không vội vàng",
+        "requirements": {
+          "tamCanh": 60
+        },
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Quyết định sáng suốt! Bí cảnh sụp đổ ngay sau đó",
+            "effects": {
+              "ngoTinh": 5,
+              "tamCanh": 5,
+              "khiVan": 3
+            },
+            "flavor": "Những người vội vàng tiến vào đều mất mạng. Thật may ta thận trọng!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gap_dong_mon",
+    "name": "Gặp Đồng Môn",
+    "description": "Ngươi gặp một đồng môn cùng tông. Nhưng vẻ mặt người ta có vẻ không thân thiện lắm...",
+    "availableFrom": 7,
+    "availableTo": 50,
+    "triggerChance": 18,
+    "khiVanModifier": 0,
+    "choices": [
+      {
+        "id": "trust_fellow",
+        "text": "Tin tưởng và kết bạn",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 60,
+            "description": "Đồng môn chân thành, hai người kết bạn",
+            "effects": {
+              "danhVong": 20,
+              "khiVan": 5,
+              "specialReward": "Đồng Môn Tri Kỷ"
+            },
+            "flavor": "\"Sư đệ, ta cảm thấy ngươi là người đáng tin! Chúng ta cùng nhau tu luyện!\""
+          },
+          {
+            "probability": 40,
+            "description": "Đồng môn phản bội! Cướp tài sản",
+            "effects": {
+              "linhThach": -2000,
+              "danhVong": -30,
+              "khiVan": -10
+            },
+            "flavor": "\"Ngu ngốc! Tu tiên giới yếu là ăn thịt! Tạ ơn sư đệ nhé!\" *cười gian tà*"
+          }
+        ]
+      },
+      {
+        "id": "be_cautious",
+        "text": "Thận trọng, giữ khoảng cách",
+        "requirements": {
+          "tamCanh": 50
+        },
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Quyết định đúng đắn, ngươi tránh được rắc rối",
+            "effects": {
+              "tamCanh": 3
+            },
+            "flavor": "Tu tiên chi lộ, không thể dễ dàng tin người. Thận trọng là thượng sách."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cuop_co_duyen",
+    "name": "Cướp Cơ Duyên",
+    "description": "Ngươi phát hiện một tu sĩ khác đang chuẩn bị thu hoạch một linh dược quý hiếm. Có nên tranh đoạt?",
+    "availableFrom": 5,
+    "availableTo": 40,
+    "triggerChance": 10,
+    "khiVanModifier": -0.2,
+    "choices": [
+      {
+        "id": "steal_opportunity",
+        "text": "Cướp cơ duyên",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 50,
+            "description": "Cướp thành công! Nhưng kết thù",
+            "effects": {
+              "tuVi": 5000,
+              "linhThach": 3000,
+              "danhVong": -50,
+              "khiVan": -5,
+              "tamCanh": -5
+            },
+            "flavor": "\"Ngươi... ngươi nhớ mặt ta! Ta sẽ báo thù!\" Người kia bỏ chạy."
+          },
+          {
+            "probability": 50,
+            "description": "Thất bại, bị người ta đánh bại",
+            "effects": {
+              "tuVi": -3000,
+              "linhThach": -1500,
+              "danhVong": -30
+            },
+            "flavor": "\"Dám động tới cơ duyên của ta?!\" Hắn mạnh hơn ngươi tưởng!"
+          }
+        ]
+      },
+      {
+        "id": "share_opportunity",
+        "text": "Đề nghị chia sẻ",
+        "requirements": {
+          "tamCanh": 40
+        },
+        "outcomes": [
+          {
+            "probability": 70,
+            "description": "Người kia đồng ý! Hai người cùng có lợi",
+            "effects": {
+              "tuVi": 2000,
+              "linhThach": 1000,
+              "danhVong": 30,
+              "khiVan": 5
+            },
+            "flavor": "\"Đạo hữu thật là quân tử! Ta đồng ý!\""
+          },
+          {
+            "probability": 30,
+            "description": "Người kia từ chối và cảnh báo",
+            "effects": {
+              "danhVong": -10
+            },
+            "flavor": "\"Đây là cơ duyên của ta! Ngươi lui đi!\""
+          }
+        ]
+      },
+      {
+        "id": "walk_away",
+        "text": "Rời đi, không tranh đoạt",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Tâm cảnh được nâng cao",
+            "effects": {
+              "tamCanh": 5,
+              "ngoTinh": 2
+            },
+            "flavor": "Cơ duyên có số, cưỡng cầu vô ích. Tu tiên trước hết phải tu tâm."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gap_cao_nhan",
+    "name": "Gặp Cao Nhân",
+    "description": "Ngươi tình cờ gặp một cao nhân đang ngồi thiền. Nhìn khí chất, người này tu vi cao thâm...",
+    "availableFrom": 15,
+    "availableTo": 80,
+    "triggerChance": 5,
+    "khiVanModifier": 0.8,
+    "choices": [
+      {
+        "id": "bow_respectfully",
+        "text": "Cung kính chào hỏi, xin chỉ giáo",
+        "requirements": {
+          "tamCanh": 60
+        },
+        "outcomes": [
+          {
+            "probability": 80,
+            "description": "Cao nhân hài lòng, chỉ điểm cho ngươi",
+            "effects": {
+              "tuVi": 8000,
+              "canCot": 5,
+              "ngoTinh": 10,
+              "tamCanh": 10,
+              "specialReward": "Cao Nhân Chỉ Điểm"
+            },
+            "flavor": "\"Tâm tánh không tồi. Ta sẽ chỉ ngươi một vài điều...\""
+          },
+          {
+            "probability": 20,
+            "description": "Cao nhân không quan tâm",
+            "effects": {},
+            "flavor": "Cao nhân mở mắt nhìn ngươi một cái rồi nhắm mắt tiếp. Duyên chưa đến..."
+          }
+        ]
+      },
+      {
+        "id": "try_steal_treasure",
+        "text": "Nhìn có vẻ người ta có bảo vật, thử lén lấy",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 5,
+            "description": "Thành công không tưởng! Lấy được bảo vật",
+            "effects": {
+              "linhThach": 10000,
+              "khiVan": -20,
+              "danhVong": -100,
+              "specialReward": "Bảo Vật Cao Nhân"
+            },
+            "flavor": "Không biết sao ngươi lấy được bảo vật. Nhưng nghiệp chướng đã tạo..."
+          },
+          {
+            "probability": 95,
+            "description": "Bị phát hiện! Cao nhân trừng phạt nghiêm khắc",
+            "effects": {
+              "tuVi": -20000,
+              "linhThach": -5000,
+              "khiVan": -30,
+              "canCot": -10,
+              "ngoTinh": -10,
+              "tamCanh": -20
+            },
+            "flavor": "\"Tiểu tử bất tri tử hoạt!\" Một tia ánh sáng bắn ra, ngươi bị trọng thương."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_duoc_su_kien",
+    "name": "Đan Dược Hội",
+    "description": "Tông môn tổ chức đại hội đan dược. Ngươi có cơ hội mua hoặc trao đổi đan dược...",
+    "availableFrom": 10,
+    "availableTo": 70,
+    "triggerChance": 12,
+    "khiVanModifier": 0.2,
+    "choices": [
+      {
+        "id": "buy_pills",
+        "text": "Mua đan dược hỗ trợ tu luyện",
+        "requirements": {
+          "linhThach": 3000
+        },
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Mua được Đan dược phẩm chất tốt",
+            "effects": {
+              "linhThach": -3000,
+              "tuVi": 5000,
+              "specialReward": "Tụ Linh Đan x3"
+            },
+            "flavor": "\"Đạo hữu mắt tinh thật! Đây là đan dược thượng phẩm!\""
+          }
+        ]
+      },
+      {
+        "id": "try_luck",
+        "text": "Thử vận may với đan dược bí ẩn",
+        "requirements": {
+          "linhThach": 5000
+        },
+        "outcomes": [
+          {
+            "probability": 30,
+            "description": "Trúng lớn! Đan dược thiên phẩm!",
+            "effects": {
+              "linhThach": -5000,
+              "tuVi": 20000,
+              "canCot": 10,
+              "ngoTinh": 10,
+              "specialReward": "Phá Cảnh Đan"
+            },
+            "flavor": "\"Khách quan quả nhiên có duyên! Đây là Phá Cảnh Đan!\""
+          },
+          {
+            "probability": 50,
+            "description": "Đan dược bình thường",
+            "effects": {
+              "linhThach": -5000,
+              "tuVi": 3000
+            },
+            "flavor": "Cũng không tệ lắm..."
+          },
+          {
+            "probability": 20,
+            "description": "Đan dược giả! Bị lừa",
+            "effects": {
+              "linhThach": -5000,
+              "tuVi": -2000,
+              "khiVan": -5
+            },
+            "flavor": "\"Chết rồi! Đây là đan độc!\" *nôn mửa*"
+          }
+        ]
+      },
+      {
+        "id": "skip_event",
+        "text": "Không tham gia, tiếp tục tu luyện",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Dành thời gian tu luyện",
+            "effects": {
+              "tuVi": 1000,
+              "tamCanh": 2
+            },
+            "flavor": "Đan dược tuy tốt, nhưng tự thân tu vi mới là cốt lõi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thien_tai_dia_bien",
+    "name": "Thiên Tai Địa Biến",
+    "description": "Một trận động đất lớn xảy ra! Rất nguy hiểm nhưng có thể có cơ duyên xuất hiện...",
+    "availableFrom": 20,
+    "availableTo": 90,
+    "triggerChance": 7,
+    "khiVanModifier": 0.4,
+    "choices": [
+      {
+        "id": "seek_opportunity",
+        "text": "Mạo hiểm tìm cơ duyên",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 30,
+            "description": "Tìm được địa huyệt linh mạch!",
+            "effects": {
+              "tuVi": 15000,
+              "linhThach": 8000,
+              "canCot": 10,
+              "specialReward": "Linh Mạch Tinh Túy"
+            },
+            "flavor": "Động đất làm lộ ra một địa huyệt cổ xưa! Linh khí ngút trời!"
+          },
+          {
+            "probability": 50,
+            "description": "Nhặt được một ít linh thảo",
+            "effects": {
+              "linhThach": 2000,
+              "khiVan": 3
+            },
+            "flavor": "Có một số linh thảo bị lộ ra bởi động đất."
+          },
+          {
+            "probability": 20,
+            "description": "Bị thương nặng bởi động đất",
+            "effects": {
+              "tuVi": -8000,
+              "linhThach": -1000,
+              "tamCanh": -5
+            },
+            "flavor": "Đất đá rơi xuống! Ngươi bị chôn vùi!"
+          }
+        ]
+      },
+      {
+        "id": "stay_safe",
+        "text": "Tìm nơi an toàn trú ẩn",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "An toàn vượt qua",
+            "effects": {
+              "tamCanh": 3
+            },
+            "flavor": "Mạng còn thì còn tất cả. Thận trọng là thượng sách."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tong_mon_nhiem_vu",
+    "name": "Tông Môn Nhiệm Vụ",
+    "description": "Tông môn giao cho ngươi một nhiệm vụ. Hoàn thành sẽ có thưởng hậu hĩnh...",
+    "availableFrom": 7,
+    "availableTo": 60,
+    "triggerChance": 15,
+    "khiVanModifier": 0.1,
+    "choices": [
+      {
+        "id": "accept_mission",
+        "text": "Nhận nhiệm vụ",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 60,
+            "description": "Hoàn thành nhiệm vụ xuất sắc",
+            "effects": {
+              "tuVi": 4000,
+              "linhThach": 3000,
+              "danhVong": 50,
+              "khiVan": 5,
+              "specialReward": "Cống Hiến Điểm +100"
+            },
+            "flavor": "\"Đệ tử làm rất tốt! Đây là phần thưởng của ngươi.\""
+          },
+          {
+            "probability": 30,
+            "description": "Hoàn thành bình thường",
+            "effects": {
+              "tuVi": 2000,
+              "linhThach": 1500,
+              "danhVong": 20
+            },
+            "flavor": "Nhiệm vụ hoàn thành, nhận được phần thưởng."
+          },
+          {
+            "probability": 10,
+            "description": "Thất bại, bị trách phạt",
+            "effects": {
+              "linhThach": -1000,
+              "danhVong": -30,
+              "khiVan": -5
+            },
+            "flavor": "\"Đệ tử vô dụng! Thật đáng thất vọng!\""
+          }
+        ]
+      },
+      {
+        "id": "decline_mission",
+        "text": "Từ chối, tiếp tục tu luyện",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Dành thời gian tu luyện",
+            "effects": {
+              "tuVi": 1500,
+              "danhVong": -10
+            },
+            "flavor": "Trường lão không vui lắm, nhưng cũng không nói gì."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gap_tien_boi",
+    "name": "Gặp Tiền Bối",
+    "description": "Một tiền bối cùng tông môn gặp ngươi. Có vẻ tiền bối có điều muốn nhờ...",
+    "availableFrom": 10,
+    "availableTo": 50,
+    "triggerChance": 10,
+    "khiVanModifier": 0.2,
+    "choices": [
+      {
+        "id": "help_senior",
+        "text": "Giúp đỡ tiền bối",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 70,
+            "description": "Tiền bối cảm kích, truyền thụ tâm pháp",
+            "effects": {
+              "tuVi": 3000,
+              "ngoTinh": 8,
+              "tamCanh": 5,
+              "specialReward": "Tiền Bối Chỉ Điểm"
+            },
+            "flavor": "\"Sư đệ tốt bụng. Đây là tâm pháp ta tu luyện, ngươi tham khảo.\""
+          },
+          {
+            "probability": 30,
+            "description": "Lãng phí thời gian, không được gì",
+            "effects": {
+              "khiVan": -2
+            },
+            "flavor": "Tiền bối cảm ơn nhưng không cho gì cả..."
+          }
+        ]
+      },
+      {
+        "id": "politely_decline",
+        "text": "Lịch sự từ chối",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Tiền bối hiểu",
+            "effects": {},
+            "flavor": "\"Không sao, sư đệ bận thì thôi.\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yeu_thu_tan_cong",
+    "name": "Yêu Thú Tấn Công",
+    "description": "Một con yêu thú mạnh xuất hiện! Ngươi có chiến đấu không?",
+    "availableFrom": 8,
+    "availableTo": 50,
+    "triggerChance": 12,
+    "khiVanModifier": -0.2,
+    "choices": [
+      {
+        "id": "fight_beast",
+        "text": "Chiến đấu với yêu thú",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 55,
+            "description": "Chiến thắng! Thu được yêu đan",
+            "effects": {
+              "tuVi": 4000,
+              "linhThach": 2500,
+              "danhVong": 30,
+              "specialReward": "Yêu Đan Cấp 3"
+            },
+            "flavor": "Yêu thú bị tiêu diệt! Ngươi lấy được yêu đan trong cơ thể nó."
+          },
+          {
+            "probability": 45,
+            "description": "Bị yêu thú đánh bại",
+            "effects": {
+              "tuVi": -3000,
+              "linhThach": -500,
+              "tamCanh": -3
+            },
+            "flavor": "Yêu thú mạnh hơn ngươi tưởng! Ngươi bị thương nặng."
+          }
+        ]
+      },
+      {
+        "id": "tame_beast",
+        "text": "Thử thuần hóa yêu thú",
+        "requirements": {
+          "ngoTinh": 70,
+          "tamCanh": 60
+        },
+        "outcomes": [
+          {
+            "probability": 30,
+            "description": "Thuần hóa thành công! Có linh thú hộ vệ",
+            "effects": {
+              "danhVong": 50,
+              "khiVan": 10,
+              "specialReward": "Linh Thú Hộ Vệ"
+            },
+            "flavor": "Yêu thú cảm nhận được thiện ý, quy phục làm linh thú."
+          },
+          {
+            "probability": 70,
+            "description": "Thất bại, yêu thú tấn công",
+            "effects": {
+              "tuVi": -2000,
+              "linhThach": -800
+            },
+            "flavor": "Yêu thú không phục! Tấn công ngươi dữ dội."
+          }
+        ]
+      },
+      {
+        "id": "run_away",
+        "text": "Chạy trốn",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 85,
+            "description": "Chạy thoát thành công",
+            "effects": {
+              "danhVong": -5
+            },
+            "flavor": "\"Ba mươi sáu kế, tẩu vi thượng kế!\""
+          },
+          {
+            "probability": 15,
+            "description": "Không thoát kịp",
+            "effects": {
+              "tuVi": -2000,
+              "linhThach": -1000
+            },
+            "flavor": "Yêu thú đuổi kịp và tấn công!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "linh_thao_vuon",
+    "name": "Phát Hiện Linh Thảo Viên",
+    "description": "Ngươi phát hiện một khu vườn linh thảo hoang vắng. Có vẻ đây là của một tu sĩ đã qua đời...",
+    "availableFrom": 5,
+    "availableTo": 40,
+    "triggerChance": 11,
+    "khiVanModifier": 0.4,
+    "choices": [
+      {
+        "id": "harvest_herbs",
+        "text": "Thu hoạch linh thảo",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 60,
+            "description": "Thu hoạch thành công!",
+            "effects": {
+              "linhThach": 3000,
+              "khiVan": 5,
+              "specialReward": "Linh Thảo x10"
+            },
+            "flavor": "Có rất nhiều linh thảo quý hiếm! Phát tài rồi!"
+          },
+          {
+            "probability": 30,
+            "description": "Thu hoạch một phần",
+            "effects": {
+              "linhThach": 1000
+            },
+            "flavor": "Một số linh thảo đã héo, nhưng còn một ít."
+          },
+          {
+            "probability": 10,
+            "description": "Có cơ quan phòng vệ! Bị thương",
+            "effects": {
+              "tuVi": -2000,
+              "linhThach": -500
+            },
+            "flavor": "Một cơ quan bẫy kích hoạt! Ngươi bị thương."
+          }
+        ]
+      },
+      {
+        "id": "pay_respect",
+        "text": "Cúng bái chủ nhân cũ rồi mới lấy",
+        "requirements": {
+          "tamCanh": 50
+        },
+        "outcomes": [
+          {
+            "probability": 80,
+            "description": "Linh hồn chủ nhân xuất hiện, ban phước",
+            "effects": {
+              "linhThach": 2000,
+              "tamCanh": 10,
+              "ngoTinh": 5,
+              "khiVan": 10,
+              "specialReward": "Linh Hồn Phù Hộ"
+            },
+            "flavor": "\"Ngươi có tâm... Ta ban cho ngươi gia truyền của ta...\""
+          },
+          {
+            "probability": 20,
+            "description": "Không có phản ứng gì",
+            "effects": {
+              "linhThach": 1500,
+              "tamCanh": 3
+            },
+            "flavor": "Dù sao cũng làm đúng đạo lý."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "auction_event",
+    "name": "Đấu Giá Hội",
+    "description": "Một đấu giá hội lớn đang diễn ra. Có nhiều bảo vật quý hiếm...",
+    "availableFrom": 15,
+    "availableTo": 80,
+    "triggerChance": 8,
+    "khiVanModifier": 0.3,
+    "choices": [
+      {
+        "id": "bid_treasure",
+        "text": "Đấu giá bảo vật",
+        "requirements": {
+          "linhThach": 10000
+        },
+        "outcomes": [
+          {
+            "probability": 40,
+            "description": "Đấu giá thành công!",
+            "effects": {
+              "linhThach": -10000,
+              "tuVi": 15000,
+              "canCot": 8,
+              "specialReward": "Bảo Vật Đấu Giá"
+            },
+            "flavor": "\"Đạo hữu trả giá cao nhất! Bảo vật là của ngươi!\""
+          },
+          {
+            "probability": 60,
+            "description": "Bị người khác đấu giá cao hơn",
+            "effects": {
+              "khiVan": -3
+            },
+            "flavor": "\"Một triệu linh thạch!\" Người khác trả giá cao hơn..."
+          }
+        ]
+      },
+      {
+        "id": "just_watch",
+        "text": "Chỉ xem, không tham gia",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Học hỏi được nhiều điều",
+            "effects": {
+              "ngoTinh": 3
+            },
+            "flavor": "Xem các cao thủ tranh đoạt, ta cũng học được nhiều."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mysterious_trader",
+    "name": "Gặp Hắc Thương",
+    "description": "Một hắc thương bí ẩn tiếp cận ngươi, có vẻ hắn có hàng hiếm...",
+    "availableFrom": 12,
+    "availableTo": 70,
+    "triggerChance": 9,
+    "khiVanModifier": 0.3,
+    "choices": [
+      {
+        "id": "buy_mysterious_item",
+        "text": "Mua vật phẩm bí ẩn",
+        "requirements": {
+          "linhThach": 5000
+        },
+        "outcomes": [
+          {
+            "probability": 35,
+            "description": "Trúng lớn! Bảo vật chân chính!",
+            "effects": {
+              "linhThach": -5000,
+              "tuVi": 12000,
+              "canCot": 10,
+              "ngoTinh": 8,
+              "specialReward": "Bảo Vật Hắc Thị"
+            },
+            "flavor": "\"Khách quan mắt tinh! Đây là hàng hiếm thật sự!\""
+          },
+          {
+            "probability": 40,
+            "description": "Hàng bình thường",
+            "effects": {
+              "linhThach": -5000,
+              "tuVi": 3000
+            },
+            "flavor": "Cũng không tệ lắm..."
+          },
+          {
+            "probability": 25,
+            "description": "Bị lừa! Hàng giả!",
+            "effects": {
+              "linhThach": -5000,
+              "khiVan": -8
+            },
+            "flavor": "\"Đồ chết tiệt! Hắc thương lừa đảo!\" Hắn đã biến mất..."
+          }
+        ]
+      },
+      {
+        "id": "decline_trader",
+        "text": "Từ chối, quá rủi ro",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Quyết định thận trọng",
+            "effects": {
+              "tamCanh": 2
+            },
+            "flavor": "Hắc thương không đáng tin. Thôi không mua."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sect_tournament",
+    "name": "Tông Môn Đại Tỷ",
+    "description": "Tông môn tổ chức đại tỷ võ! Ngươi có tham gia không?",
+    "availableFrom": 10,
+    "availableTo": 50,
+    "triggerChance": 10,
+    "khiVanModifier": 0.1,
+    "choices": [
+      {
+        "id": "join_tournament",
+        "text": "Tham gia đại tỷ",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 30,
+            "description": "Vô địch đại tỷ!",
+            "effects": {
+              "tuVi": 8000,
+              "linhThach": 5000,
+              "danhVong": 100,
+              "khiVan": 10,
+              "specialReward": "Vô Địch Đại Tỷ"
+            },
+            "flavor": "\"Đệ tử xuất sắc! Ngươi là niềm tự hào của tông môn!\""
+          },
+          {
+            "probability": 40,
+            "description": "Vào top 10",
+            "effects": {
+              "tuVi": 4000,
+              "linhThach": 2000,
+              "danhVong": 40
+            },
+            "flavor": "Thành tích không tệ, nhận được khen ngợi."
+          },
+          {
+            "probability": 30,
+            "description": "Thua sớm, bị chế giễu",
+            "effects": {
+              "danhVong": -20,
+              "tamCanh": -5
+            },
+            "flavor": "\"Yếu quá!\" Mọi người cười nhạo ngươi..."
+          }
+        ]
+      },
+      {
+        "id": "skip_tournament",
+        "text": "Không tham gia, tiếp tục tu luyện",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Dành thời gian tu luyện",
+            "effects": {
+              "tuVi": 2000,
+              "tamCanh": 3
+            },
+            "flavor": "Tranh đoạt danh vọng không bằng tu vi thực lực."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ancient_ruins",
+    "name": "Di Tích Cổ Đại",
+    "description": "Phát hiện di tích của một thế lực cổ đại đã diệt vong từ lâu...",
+    "availableFrom": 25,
+    "availableTo": 90,
+    "triggerChance": 6,
+    "khiVanModifier": 0.7,
+    "choices": [
+      {
+        "id": "explore_ruins",
+        "text": "Thám hiểm di tích",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 35,
+            "description": "Tìm được truyền thừa cổ đại!",
+            "effects": {
+              "tuVi": 25000,
+              "linhThach": 15000,
+              "canCot": 15,
+              "ngoTinh": 15,
+              "tamCanh": 10,
+              "specialReward": "Cổ Đại Truyền Thừa"
+            },
+            "flavor": "Trong di tích có một kho tàng tri thức khổng lồ!"
+          },
+          {
+            "probability": 40,
+            "description": "Thu được một số bảo vật",
+            "effects": {
+              "tuVi": 8000,
+              "linhThach": 6000,
+              "khiVan": 5
+            },
+            "flavor": "Có một số bảo vật còn nguyên vẹn."
+          },
+          {
+            "probability": 25,
+            "description": "Di tích sụp đổ! Suýt chết",
+            "effects": {
+              "tuVi": -10000,
+              "linhThach": -3000,
+              "tamCanh": -8
+            },
+            "flavor": "Di tích không ổn định! Sụp đổ ác liệt!"
+          }
+        ]
+      },
+      {
+        "id": "mark_location",
+        "text": "Đánh dấu vị trí, quay lại sau",
+        "requirements": {
+          "tamCanh": 70
+        },
+        "outcomes": [
+          {
+            "probability": 100,
+            "description": "Quyết định khôn ngoan",
+            "effects": {
+              "ngoTinh": 5,
+              "tamCanh": 5,
+              "specialReward": "Vị Trí Di Tích"
+            },
+            "flavor": "Chưa đủ mạnh. Đợi tu vi cao hơn sẽ quay lại."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heavenly_phenomena",
+    "name": "Thiên Tượng Dị Biến",
+    "description": "Bầu trời xuất hiện hiện tượng kỳ lạ! Ánh sáng kỳ ảo chiếu xuống...",
+    "availableFrom": 30,
+    "availableTo": 100,
+    "triggerChance": 5,
+    "khiVanModifier": 0.8,
+    "choices": [
+      {
+        "id": "meditate_under_light",
+        "text": "Thiền định dưới ánh sáng",
+        "requirements": {
+          "tamCanh": 70
+        },
+        "outcomes": [
+          {
+            "probability": 60,
+            "description": "Đại ngộ! Tu vi đại tiến!",
+            "effects": {
+              "tuVi": 30000,
+              "canCot": 10,
+              "ngoTinh": 20,
+              "tamCanh": 15,
+              "specialReward": "Thiên Đạo Cảm Ngộ"
+            },
+            "flavor": "Ánh sáng chứa đạo lý thiên địa! Ngươi ngộ được nhiều điều!"
+          },
+          {
+            "probability": 40,
+            "description": "Có một chút cảm ngộ",
+            "effects": {
+              "tuVi": 10000,
+              "ngoTinh": 8,
+              "tamCanh": 5
+            },
+            "flavor": "Cảm nhận được một phần đạo lý."
+          }
+        ]
+      },
+      {
+        "id": "investigate_source",
+        "text": "Điều tra nguồn gốc hiện tượng",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 30,
+            "description": "Tìm được bảo vật thiên giáng!",
+            "effects": {
+              "tuVi": 20000,
+              "linhThach": 10000,
+              "khiVan": 15,
+              "specialReward": "Thiên Giáng Bảo Vật"
+            },
+            "flavor": "Một bảo vật từ trên trời rơi xuống!"
+          },
+          {
+            "probability": 70,
+            "description": "Không tìm được gì",
+            "effects": {
+              "khiVan": -3
+            },
+            "flavor": "Chỉ là hiện tượng tự nhiên..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karma_choice",
+    "name": "Nhân Quả Nghiệp Chướng",
+    "description": "Ngươi cảm nhận được nghiệp chướng từ quá khứ. Đây là thử thách của đại đạo...",
+    "availableFrom": 40,
+    "availableTo": 100,
+    "triggerChance": 8,
+    "khiVanModifier": -0.5,
+    "choices": [
+      {
+        "id": "face_karma",
+        "text": "Đối mặt với nghiệp chướng",
+        "requirements": {
+          "tamCanh": 80
+        },
+        "outcomes": [
+          {
+            "probability": 60,
+            "description": "Vượt qua nghiệp chướng! Tâm cảnh đại thăng!",
+            "effects": {
+              "tuVi": 20000,
+              "tamCanh": 20,
+              "ngoTinh": 15,
+              "khiVan": 15,
+              "specialReward": "Nghiệp Chướng Tiêu Tan"
+            },
+            "flavor": "Nghiệp chướng tan biến! Ngươi cảm thấy nhẹ nhõm vô cùng!"
+          },
+          {
+            "probability": 40,
+            "description": "Nghiệp chướng quá nặng, bị phản phệ",
+            "effects": {
+              "tuVi": -15000,
+              "tamCanh": -15,
+              "khiVan": -20
+            },
+            "flavor": "Nghiệp chướng quá mạnh! Ngươi bị phản phệ!"
+          }
+        ]
+      },
+      {
+        "id": "suppress_karma",
+        "text": "Dùng tu vi áp chế nghiệp chướng",
+        "requirements": {},
+        "outcomes": [
+          {
+            "probability": 50,
+            "description": "Tạm thời áp chế được",
+            "effects": {
+              "tuVi": -5000,
+              "tamCanh": -5
+            },
+            "flavor": "Chỉ có thể tạm thời áp chế... Sau này sẽ còn trở lại..."
+          },
+          {
+            "probability": 50,
+            "description": "Nghiệp chướng bùng phát mạnh hơn",
+            "effects": {
+              "tuVi": -20000,
+              "tamCanh": -20,
+              "khiVan": -25
+            },
+            "flavor": "\"Ngươi tưởng áp chế được sao?!\" Nghiệp chướng bùng phát dữ dội!"
+          }
+        ]
+      }
+    ]
+  }
+]

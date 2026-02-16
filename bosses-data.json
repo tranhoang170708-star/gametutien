@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ta_tu_hac_y",
+    "name": "Tà Tu Hắc Y Lão Quỷ",
+    "description": "Một tu sĩ tà đạo khét tiếng trong giang hồ. Lão ta tu luyện hút linh hồn người khác để tăng tu vi. Tay đầy máu tươi của vô số người vô tội.",
+    "realm": 15,
+    "difficulty": "hard",
+    "stats": {
+      "power": 1500,
+      "defense": 1000,
+      "speed": 800
+    },
+    "rewards": {
+      "tuVi": 15000,
+      "linhThach": 8000,
+      "danhVong": 200,
+      "specialItems": [
+        "Hắc Ám Tâm Kinh",
+        "Linh Hồn Châu",
+        "Tà Đạo Pháp Bảo"
+      ]
+    },
+    "defeatText": "\"Không thể nào... Ta đã tu luyện trăm năm... Ngươi... ngươi...\" Hắc Y Lão Quỷ vỡ tan thành tro bụi. Thiên đạo luân hồi, tà bất thắng chính!",
+    "loseText": "\"Ha ha ha! Linh hồn ngươi sẽ là bổ phẩm tuyệt vời!\" Ngươi bị hút mất một phần linh hồn, tu vi giảm sút nghiêm trọng..."
+  },
+  {
+    "id": "tien_thu_bao_man",
+    "name": "Tiên Thú Bạo Mãn - Ngũ Sắc Kỳ Lân",
+    "description": "Một con linh thú cổ đại, từng là linh thú hộ sơn của một vị Chân Tiên. Sau khi chủ nhân qua đời, nó rơi vào tâm ma và trở nên bạo ngược. Sức mạnh khủng khiếp!",
+    "realm": 52,
+    "difficulty": "legendary",
+    "stats": {
+      "power": 100000,
+      "defense": 80000,
+      "speed": 90000
+    },
+    "rewards": {
+      "tuVi": 500000000,
+      "linhThach": 10000000,
+      "danhVong": 5000,
+      "specialItems": [
+        "Kỳ Lân Tinh Huyết",
+        "Ngũ Sắc Thần Thạch",
+        "Cổ Tiên Linh Thú Khế Ước",
+        "Tiên Thú Giáp"
+      ]
+    },
+    "defeatText": "Kỳ Lân ngửa đầu gào thét, ánh mắt dần trở lại thanh minh. \"Ta... cuối cùng cũng được giải thoát... Cảm ơn ngươi...\" Nó biến thành ánh sáng ngũ sắc và để lại tinh huyết.",
+    "loseText": "\"ROOAARRR!!!\" Kỳ Lân dùng móng vuốt đánh văng ngươi ra xa. Tu vi ngươi chưa đủ để đối đầu với tiên thú cổ đại..."
+  },
+  {
+    "id": "yeu_de_huyet_nguyet",
+    "name": "Yêu Đế Huyết Nguyệt",
+    "description": "Đế vương của tộc yêu, cai trị một vương quốc rộng lớn. Tham vọng xâm lăn nhân tộc. Sở hữu huyết mạch yêu hoàng cổ đại, tu vi thâm hậu kinh người.",
+    "realm": 87,
+    "difficulty": "legendary",
+    "stats": {
+      "power": 5000000,
+      "defense": 4000000,
+      "speed": 4500000
+    },
+    "rewards": {
+      "tuVi": 50000000000000,
+      "linhThach": 100000000000,
+      "danhVong": 50000,
+      "specialItems": [
+        "Yêu Hoàng Huyết Mạch",
+        "Huyết Nguyệt Thần Kiếm",
+        "Yêu Đế Hoàng Bào",
+        "Đế Vương Ấn"
+      ]
+    },
+    "defeatText": "\"Không thể tin được... Ta là Yêu Đế... Làm sao có thể thua một nhân tu...\" Huyết Nguyệt Yêu Đế ngã xuống, đế quốc yêu tộc từ đây sụp đổ. Ngươi trở thành anh hùng của nhân tộc!",
+    "loseText": "\"Nhân tộc yếu ớt! Ta sẽ thống trị toàn bộ lục địa này!\" Ngươi bị đánh bại thảm hại, phải dùng bảo bối tẩu mạng mới sống sót..."
+  },
+  {
+    "id": "co_tien_oan_hon",
+    "name": "Cổ Tiên Oan Hồn - Thanh Liên Đạo Nhân",
+    "description": "Một vị Chân Tiên ngàn năm trước, bị môn đồ phản bội và giết hại. Oan hồn không thể siêu thoát, ở lại gác đạo của mình, giết hại tất cả những ai bước vào.",
+    "realm": 55,
+    "difficulty": "hard",
+    "stats": {
+      "power": 150000,
+      "defense": 100000,
+      "speed": 120000
+    },
+    "rewards": {
+      "tuVi": 800000000,
+      "linhThach": 15000000,
+      "danhVong": 8000,
+      "specialItems": [
+        "Thanh Liên Kiếm Pháp",
+        "Đạo Nhân Di Vật",
+        "Thanh Tịnh Tâm Pháp",
+        "Công Đức Kim Quang"
+      ]
+    },
+    "defeatText": "Oan hồn dần tan biến, vẻ mặt thanh bình. \"Cảm ơn ngươi... Ta cuối cùng cũng có thể siêu thoát... Đây là tâm pháp của ta... Mong ngươi phát huy quang đại...\" Ánh sáng vàng kim bao trùm ngươi.",
+    "loseText": "\"Các ngươi... đều là kẻ phản bội... Chết hết đi!!!\" Oan hồn hành hạ ngươi, gần như chết. May mắn có bảo bối phòng thân mới thoát..."
+  },
+  {
+    "id": "thien_ma_chi_vuong",
+    "name": "Thiên Ma Chi Vương - Ma Hoàng Vô Cực",
+    "description": "Vị vương giả của ma giới, muốn xâm chiếm tu tiên giới. Đã từng đại chiến với nhiều Tiên Đế và bất phân thắng bại. Hiện tại đang tìm cách phá vỡ phong ấn để trở lại.",
+    "realm": 95,
+    "difficulty": "legendary",
+    "stats": {
+      "power": 50000000,
+      "defense": 40000000,
+      "speed": 45000000
+    },
+    "rewards": {
+      "tuVi": 200000000000000,
+      "linhThach": 500000000000,
+      "danhVong": 100000,
+      "specialItems": [
+        "Ma Hoàng Chân Nguyên",
+        "Thiên Ma Thần Công",
+        "Ma Giới Chi Môn",
+        "Vô Cực Ma Kiếm",
+        "Ma Đế Hoàng Tọa"
+      ]
+    },
+    "defeatText": "\"Không thể nào... Ta là Ma Hoàng... Đã tồn tại từ thượng cổ... Ngươi... ngươi là ai...\" Ma Hoàng Vô Cực tan biến, ma giới từ đây mất đi chủ nhân. Ngươi trở thành huyền thoại sống, tên tuổi vang danh vạn giới!",
+    "loseText": "\"Ha ha ha! Tiên Đế cũng không thắng được ta, ngươi là cái gì?!\" Ngươi bị đánh bay, toàn bộ tu vi gần như bị phế. Phải tu dưỡng hàng trăm năm mới hồi phục..."
+  }
+]
